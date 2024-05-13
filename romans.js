@@ -67,7 +67,7 @@ const convertRomanToInteger = function(roman) {
     return response;
   }
 
-  var arr = ["I", 'V', 'X', 'L', 'C', 'D', 'M'];
+  var arr = ['I', 'V', 'X', 'L', 'C', 'D', 'M'];
 
   var values = {
     I: 1,
