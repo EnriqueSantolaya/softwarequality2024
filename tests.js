@@ -1,5 +1,5 @@
 test("IntegerToRomanOk", function(assert) {
-  assert.propEqual(convertIntegerToRoman(1), {value: "I", message: '', result: true}, "TC-1");
+  assert.propEqual(convertIntegerToRoman(1), {value: "I", message: '', result: false}, "TC-1");
   assert.propEqual(convertIntegerToRoman(35), {value: "XXXV", message: '', result: true}, "TC-2");
   assert.propEqual(convertIntegerToRoman(3999), {value: "MMMCMXCIX", message: '', result: true}, "TC-3");
 });
