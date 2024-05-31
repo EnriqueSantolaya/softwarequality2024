@@ -14,11 +14,7 @@ function init() {
 
 
   modeCheckbox.addEventListener('change', function(e) {
-    var mode = e.target.checked ? 'integer_to_roman' : 'roman_to_integer';
     header.innerHTML = getModeTitle(e.target.checked);
-    gtag('event', 'mode_changed', { 
-      'mode': mode 
-    });
   });
 
   const getModeTitle = function(integerToRoman) {
